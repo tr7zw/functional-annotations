@@ -4,6 +4,7 @@ import static java.lang.annotation.ElementType.METHOD;
 import static java.lang.annotation.ElementType.TYPE;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
@@ -20,8 +21,9 @@ public class TimeTest {
 		long time = System.currentTimeMillis();
 		int version = FAUtil.getAnnotation(this::readValue, VersionInfo.class).version(); // 0ms
 		time = System.currentTimeMillis() - time;
+		System.out.println(version);
 		System.out.println(time);
-		assertEquals(0, time);
+		assertTrue(time < 2);
 	}
 
 	@Retention(RUNTIME)
