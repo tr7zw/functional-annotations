@@ -18,7 +18,7 @@ import org.junit.Test;
  * @author tr7zw
  *
  */
-public class RecheckkTest {
+public class ReCheckTest {
 
 	@Test
 	public void testRechecking() {
