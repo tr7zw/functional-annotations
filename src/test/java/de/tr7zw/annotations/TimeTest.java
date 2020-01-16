@@ -23,7 +23,7 @@ public class TimeTest {
 		time = System.currentTimeMillis() - time;
 		System.out.println(version);
 		System.out.println(time);
-		assertTrue(time < 2);
+		assertTrue(time <= 2);
 	}
 
 	@Retention(RUNTIME)
