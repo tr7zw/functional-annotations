@@ -7,6 +7,10 @@ import java.lang.reflect.Method;
 import java.util.HashSet;
 import java.util.function.Function;
 
+import de.tr7zw.annotations.ref.MethodRefrence;
+import de.tr7zw.annotations.ref.MethodRefrence1;
+import de.tr7zw.annotations.ref.MethodRefrence2;
+
 public class FAUtil {
 
 	@SuppressWarnings("unchecked")
