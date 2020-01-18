@@ -1,4 +1,4 @@
-# functional-annotations
+# Functional-Annotations
 This lib allows easy access to data stored in Annotations on Methods. This can be used for runtime validations, deduplicating values or having static parameters for Methods, that can easily be accessed.
 
 ## Maven
